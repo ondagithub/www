@@ -1,0 +1,248 @@
+﻿@charset "UTF-8";
+
+/* 
+* 온다, 미래가 온다! 우리가 간다~
+* @date start 2024.08.13
+* @date end 2024.08.13
+* @author 온다
+* @define HTML index
+* @description 
+-------------------------------------------------------------------
+Ultimate Gray - RGB 147, 149, 151 / Hex #939597
+Illuminating - RGB 245, 223, 77 / Hex #F5DF4D
+-------------------------------------------------------------------
+Primary Color Gray(#939597) : 기본 color
+Primary Color Yellow(#F5DF4D) : 온다 color
+-------------------------------------------------------------------
+*/
+
+/* 
+* 온다, 미래가 온다! 우리가 간다~
+* @date start 2024.08.13
+* @date end 2024.08.13
+* @author 온다
+* @define HTML index
+* @description 
+*/
+html, body{width:100%;height:100%;margin:0;padding:0;}
+html, body, h1, h2, h3, h4, h5, h6{font-family: Arial, sans-serif, Malgun Gothic, 맑은 고딕;}
+h1, h2{font-weight:bold;}
+div, p{margin:0;padding:0;} 
+ul, li{margin:0;padding:0;list-style: none;}
+.clearfix::after{content : "";display : block;clear : both;}
+button{border:0;cursor:pointer;}
+a{color:#0070C0;}
+
+/* 
+* 온다, 미래가 온다! 우리가 간다~
+* @date start 2024.08.13
+* @date end 2024.08.13
+* @author 온다
+* @define display
+* @description 
+*/
+.xon-display-inline{display:inline;}
+.xon-display-inlineblock{display:inline-block;}
+.xon-display-block{display:block;}
+.xon-display-flex{display:flex;}
+.xon-display-grid{display:grid;}
+.xon-display-table{display:table;}
+.xon-display-tableCell{display:table-cell;}
+
+/* 
+* 온다, 미래가 온다! 우리가 간다~
+* @date start 2024.08.13
+* @date end 2024.08.13
+* @author 온다
+* @define color
+* @description 
+*/
+.xon-text-color01{color:#fff !important;} /* white */
+.xon-text-color02{color:#000 !important;} /* black */
+.xon-text-color03{color:#1CADE4 !important;} /* Blue */
+.xon-primary-text-color01{color:#939597 !important;} /* Primary Color Gray */
+.xon-primary-text-color02{color:#0070C0 !important;} /* Primary Color Blue */
+.xon-primary-text-color03{color:#F5DF4D !important} /* Primary Color Yellow */
+
+/* 
+* 온다, 미래가 온다! 우리가 간다~
+* @date start 2024.08.13
+* @date end 2024.08.13
+* @author 온다
+* @define background
+* @description 
+*/
+.xon-background-color01{background-color:#fff !important;} /* white */
+.xon-background-color02{background-color:#000 !important;} /* black */
+.xon-background-color03{background-color:#1CADE4 !important;} /* Blue */
+.xon-primary-background-color01{background-color:#939597 !important;} /* Primary Color Gray */
+.xon-primary-background-color02{background-color:#0070C0 !important;} /* Primary Color Blue */
+.xon-primary-background-color03{background-color:#F5DF4D !important} /* Primary Color Yellow */
+
+/* 
+* 온다, 미래가 온다! 우리가 간다~
+* @date start 2024.08.13
+* @date end 2024.08.13
+* @author 온다
+* @define font
+* @description 
+*/
+.xon-text-size00{font-size:15px} /* w3css text-size(==body, default) */
+.xon-text-size01{font-size:36px} /* w3css text-size(==h1) */
+.xon-text-size02{font-size:30px} /* w3css text-size(==h2) */
+.xon-text-size03{font-size:24px} /* w3css text-size(==h3) */
+.xon-text-size04{font-size:20px} /* w3css text-size(==h4) */
+.xon-text-size05{font-size:18px} /* w3css text-size(==h5) */
+.xon-text-size06{font-size:16px} /* w3css text-size(==h6) */
+.xon-text-size07{font-size:50px} /* xon customize text-size */
+
+/* 
+* 온다, 미래가 온다! 우리가 간다~
+* @date start 2024.08.13
+* @date end 2024.08.13
+* @author 온다
+* @define margin
+* @description 
+*/
+.xon-margin-10{margin:10px;}
+.xon-margin-top-10{margin-top:10px;}
+.xon-margin-right-10{margin-right:10px;}
+.xon-margin-bottom-10{margin-bottom:10px;}
+.xon-margin-left-10{margin-left:10px;}
+.xon-margin-top-10m{margin-top:-10px;}
+.xon-margin-right-10m{margin-right:-10px;}
+.xon-margin-bottom-10m{margin-bottom:-10px;}
+.xon-margin-left-10m{margin-left:-10px;}
+
+.xon-margin-top-20{margin-top:20px;}
+
+/* 
+* 온다, 미래가 온다! 우리가 간다~
+* @date start 2024.08.13
+* @date end 2024.08.13
+* @author 온다
+* @define text align
+* @description 
+*/
+.xon-text-align-left{text-align: left;}
+.xon-text-align-center{text-align: center;}
+.xon-text-align-right{text-align: right;}
+
+/* header */
+.header {position:relative;min-width:1200px;padding: 20px;}
+.header h1{color:#000;}
+#navbar {position: relative;min-width:1200px;overflow: hidden;background-color: rgba(147, 149, 151, 0.7);transition: background-color .35s ease-in-out;}
+#navbar a {float: left;display: block;color: #f2f2f2;text-align: center;padding: 14px 16px;text-decoration: none; font-size: 17px;}
+#navbar a:first-child{padding: 14px 23px;}
+#navbar a:hover {background-color: #ddd;color: black;}
+#navbar a.active {background-color: #F5DF4D;color: #000;}
+#navbar.sticky {position: fixed;top: 0;width: 100%;z-index: 3;background-color: rgba(147, 149, 151, 1);}
+
+/* layout */
+section{position:relative;min-width:1200px;margin:30px 20px 0;}
+
+/* table */
+table{width:100%;border-spacing:0; border-collapse:collapse;}
+table th,
+table td{border:1px solid #ccc;}
+table th:first-child,
+table td:first-child{text-align:center;}
+table th{padding:10px 0 6px;background-color:#0070C0;color:#fff;}
+table td{padding:10px 6px 6px;}
+
+
+/* footerf */
+.footer{position: relative;left: 0;right: 0;bottom: 0;min-width:1200px;height: 100px;background-color: #fff;color: #000;font-weight: bold;}
+.footer .ondaCloseTag{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #000;
+    transform: translate(0, -50%);
+  }
+.footer .copyright {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+  }
+.footer .social {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  
+  .footer .social .social-item {
+    display: inline-block;
+  }
+  
+  .footer .social .social-item + .social-item {
+    margin-left: 20px;
+  }
+  
+  .footer .social .social-item.facebook {
+    width: 9px;
+    height: 19px;
+    background-image: url("https://naver.github.io/assets/images/layout/common/ico-facebook.png");
+    background-size: 9px 19px;
+  }
+  
+  .footer .social .social-item.mail {
+    width: 22px;
+    height: 22px;
+    background-image: url("https://naver.github.io/assets/images/layout/common/ico-mail-black.png");
+    background-size: 22px 22px;
+  }
+  .hide-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* moveTop */
+#movebtn{display:none;position:fixed;right:0px;bottom:100px;padding:5px 10px;font-size:9px;font-weight:bold;}
+#movebtn.show{display:block;}
+#movebtn a{text-decoration:none;}
+
+/* screen 1025px 이상, Device Large, PC */
+@media all and (min-width:1025px){      
+    .onda-introWrap{height:730px;}
+    .xon-directionality-detail01{padding:100px 20px 20px;} 
+}
+
+/* screen 481px 이상 1024px 이하, Device medium, Tablet */
+@media all and (min-width:481px) and (max-width:1024px) {
+
+}
+
+/* screen 480px 이하, Device Small, Smart Phone */
+@media all and (max-width:480px) {
+    section{min-width:0;}
+    h1{font-size:30px;margin-top:-6px !important;margin-bottom: -6px !important;}
+    
+    .xon-text-size07{font-size:30px}
+    .sds-linebreak{display:block;}
+
+    .sds-navigation{position:fixed;left:0;top:0;right:0;margin:0;z-index:2;height:70px;box-shadow: 0 2px 16px 0 rgba(0,0,0,.12);}
+    .sds-navigation::after{height:100%;background-color: #000;}
+    .onda-directionality{position:relative;padding:40px 20px;}
+    .onda-directionality .onda-articleItemWrap{position:relative;left:0;top:0;margin-left:0px;width:auto;}
+    .onda-directionality .onda-articleValueWrap{margin-left:0;border-left:1px solid #969FA7;}
+    .onda-articleValueWrap ul{padding-left: 30px;}
+    .onda-articleValueWrap ul li{padding:5px 0;text-indent: -30px;}
+    .onda-articleValueWrap ul li span{padding:5px 0;text-indent: 0;}
+
+    .onda-methodology{padding:40px 0px;}
+    .onda-poll{padding:40px 20px;}
+    .onda-contact{padding:40px 20px;}    
+    .onda-video-blockWrap .onda-video-blocklist{margin-right:0;}
+
+    .onda-video-blockWrap .onda-video-block{width:100%;}
+    .onda-img-blockWrap .onda-img-block{display:block;}
+    .onda-img-blockWrap .onda-img-block img{width:100%;height:auto;}
+}

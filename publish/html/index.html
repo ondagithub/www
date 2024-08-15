@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<title>Markup Index</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="../resource/w3css/4/w3.css">
+<link rel="stylesheet" href="../resource/css/theme01/base.css">
+
+<!--
+* 온다, 미래가 온다! 우리가 간다~
+* @date start 2024.08.13
+* @date end 2024.08.13
+* @author 온다
+* @define HTML index
+* @description 
+-->
+<body>
+    <a name="00"></a>
+    <div class="header">
+        <h1>Markup Index</h1>
+    </div>
+    
+    <div id="navbar">
+        <a class="active" href="#00">Index Home</a>
+        <a href="#01">미래유망 온다쌤(markupex_ftp)</a>
+    </div>
+    
+    <a name="00"></a>
+    <section>
+        <h2 class="xon-margin-top-20">미래유망 온다쌤(markupex_ftp)</h2>
+        <table>
+            <colgroup>
+                <col style="width:60px;">
+                <col style="width:90px;">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <tr>
+                <th>순번</th>
+                <th>작성일</th>
+                <th>제목</th>
+                <th>파일명</th>
+                <th>내용</th>
+                <th>밴드링크</th>
+                <th>비고</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="xon-text-align-center">2024-08-13</td>
+                <td>Self coding</td>
+                <td><a href="../../20240805_onda_v1/" target="_blank">index.html</a></td>
+                <td></td>
+                <td><a href="https://band.us/band/94181111/post/147" target="_blank">20240805.zip</a></td>
+                <td>Head 영역 마크업 공유</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="xon-text-align-center">2024-08-13</td>
+                <td>Self coding</td>
+                <td><a href="../../20240805_onda_v2/" target="_blank">index.html</a></td>
+                <td></td>
+                <td><a href="https://band.us/band/94181111/post/148" target="_blank">20240805_onda_v2.zip</a></td>
+                <td>Head + Main Visual 영역 마크업 공유</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="xon-text-align-center">2024-08-13</td>
+                <td>Follow Coding</td>
+                <td><a href="../../20240807_onda_v3/" target="_blank">index.html</a></td>
+                <td>Head 영역 position 적용, Main Visual 영역 flex 적용</td>
+                <td><a href="https://band.us/band/94181111/post/150" target="_blank">20240807_onda_v3.zip</a></td>
+                <td>Head + Main Visual 영역 HTML/CSS 함께 코딩</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="xon-text-align-center">2024-08-13</td>
+                <td>Refectoring / Share</td>
+                <td><a href="../../20240813_onda_v4/" target="_blank">index.html</a></td>
+                <td>Head 영역 position margin-top 적용방법 수정</td>
+                <td><a href="" target="_blank">20240813_onda_v4.zip</a></td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+    
+    <div class="footer">
+        <p class="ondaCloseTag xon-text-size01"></p>
+        <p class="copyright">© 온다. All rights reserved.</p>
+    </div>
+
+    <div id="movebtn" class="xon-primary-background-color03 xon-text-color02"><a href="#top">TOP</a></div>
+    
+    <script type="text/javascript">
+    window.onscroll = function() {
+        navbarFunction();
+    };
+        
+    var navbar = document.getElementById("navbar");
+    var stickyTop = navbar.offsetTop;
+    var movebtn = document.getElementById("movebtn");
+
+    function navbarFunction() {
+        if (window.pageYOffset >= stickyTop) {
+        navbar.classList.add("sticky");
+        movebtn.classList.add("show");
+        } else {
+        navbar.classList.remove("sticky");
+        movebtn.classList.remove("show");
+        }
+    }
+    </script>
+</body> 
+
+</html>
