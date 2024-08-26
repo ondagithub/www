@@ -3,7 +3,7 @@
 /* keywords : 온다프로필, 온다자기소개
 /* author : 온다 */ 
 /* create Date : 2024-08-05
-/* update Date : 2024-08-26
+/* update Date : 2024-08-15
 /* **************************************** */
 @import url(styleCommon.css);
 
@@ -16,14 +16,6 @@
 header{    
     height:80px;
     border-bottom:1px solid #ccc;
-    /* 2024-08-26 온다 : 추가 */
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 999999;
-    background: #fff;
-    /* //2024-08-26 온다 : 추가 */
 }
 
 header .innerWrap{
@@ -71,7 +63,6 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
-/* 2024-08-26 온다 : 삭제
 .icoBtnWrap{
     /* 2024-08-15 온다 : 삭제
     position:absolute;
@@ -80,10 +71,7 @@ nav ul li a:hover{
     //2024-08-15 온다 : 삭제 */
     /* margin-top:-12px; //2024-08-13 온다 : 삭제 */
     /* transform: translate(0, -50%); //2024-08-13 온다 : 추가, //2024-08-15 온다 : 삭제 */
-/* //2024-08-26 온다 : 삭제 */  
-/* 2024-08-26 온다 : 삭제
-} 
-//2024-08-26 온다 : 삭제 */
+}
 .icoBtnWrap button{
     width: 34px;
     height: 24px;
@@ -117,7 +105,7 @@ nav ul li a:hover{
     */
     height: 270px; /* 2024-08-15 온다 : height:270px 로 변경 */
     text-align:center;
-    margin-top:160px; /* 2024-08-15 온다 : margin-top:80px 로 변경, 2024-08-26 온다 : margin-top:80px 로 변경 */
+    margin-top:80px; /* 2024-08-15 온다 : margin-top:80px 로 변경 */
 }
 
 .mainTxt p{
@@ -149,11 +137,10 @@ nav ul li a:hover{
 
 .mainVisual{
     display:flex;
-    padding:0 15px; /* 2024-08-26 온다 : 추가 */
 }
 
 .mainVisual .mainColumn01{    
-    width:34%; /* 2024-08-15 온다 : width:35%로 변경, 2024-08-26 온다 : width:34%로 변경 */
+    width:35%; /* 2024-08-15 온다 : width:35%로 변경 */
 }
 
 .mainVisual .mainColumn01 img{
@@ -173,49 +160,11 @@ nav ul li a:hover{
 .mainVisual .mainColumn02 .candoBox{
     margin-bottom:35px;
 }
-/* 2024-08-26 온다 : 추가 */
-.mainVisual .mainColumn02 .candoBox:last-child{
-    margin-bottom:86px;
-}
-/* //2024-08-26 온다 : 추가 */
 
 /* subVisual */
-/* 2024-08-26 온다 : 수정, 추가 */
-.subVisualWrap{
-    background:#eee;
-}
-.subInnerCon{    
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding:60px 15px; /* 2024-08-26 온다 : 변경 */
-}
-
-.subTxt .subTxt01{
-    font-size:26px;
-    font-weight:bold;    
-}
-.subTxt .subTxt02{
-    font-size:16px;  
-}
-.subTxt .subTxt03{
-    margin-top:32px;
-    font-size:16px;
-    font-weight:bold;
-    color: rgb(156, 156, 148);
-}
-.subTxt .subTxt04{
-    font-size:12px;
-    color: rgb(156, 156, 148);
-}
-.subTxt .subTxt05{    
-    margin-top:20px;
-    line-height:1.6;
-}
-.subVisual .subColumn01 img{
+.subColumn02 img{
     width:350px;
 }
-/* //2024-08-26 온다 : 수정, 추가 */
 
 /* poemTxt */
 .poemBox02 iframe{

@@ -152,7 +152,7 @@ table td:first-child{text-align:center;}
 table th{padding:10px 0 6px;background-color:#0070C0;color:#fff;}
 table td{padding:10px 6px 6px;}
 
-
+memoBox
 /* footer */
 .footer{display:flex;justify-content:space-between;align-items:center;min-width:1200px;height: 100px;padding:0 20px;background-color: #fff;color: #000;font-weight: bold;}
 .footer .ondaCloseTag{
@@ -168,6 +168,13 @@ table td{padding:10px 6px 6px;}
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+.memoBox{
+  margin:20px;
+  padding:20px;
+  background:#efefef;
+  border:1px solid #ccc;
 }
 
 /* moveTop */
