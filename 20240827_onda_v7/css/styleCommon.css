@@ -1,0 +1,72 @@
+/* **************************************** */
+/* description : 미래유망 온다쌤
+/* keywords : 온다프로필, 온다자기소개
+/* author : 온다 */ 
+/* create Date : 2024-08-05
+/* update Date : 2024-08-06
+/* **************************************** */
+html,body{
+    margin:0;
+    padding:0;
+    
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-size:1em;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+.font-default {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: normal;
+}
+
+.font-color01{
+    color:#000;
+}
+
+.font-color02{
+    color:#333;
+}
+
+.font-colorPoint01{
+    color:#ff0066;
+}
+
+/* reset */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,
+ul,ol,li,div,p{
+    margin:0;
+    padding:0;
+}
+
+ul,ol{list-style: none;}
+
+a{text-decoration: none;}
+
+button{vertical-align: top;cursor: pointer;}
+
+/* Layout */
+/* 
+#container : 전체레이아웃박스
+#innerWrap : 반응형대응 최대너비 감싸기
+header : GNB(홈|온다소개|온다일기|온다플젝|학습도우미|문의하기) 영역
+footer : Foot 영역
+
+section.mainVisualWrap : 메인비주얼 영역
+section.subVisualWrap : 서브비주얼 영역
+section.subjectWrap : 이수과목 영역
+section.poemTxtWrap : 위대한 것은 온다의 일들이니-Txt
+section.poemImgWrap : 위대한 것은 온다의 일들이니-Img
+*/
+
+.innerWrap{
+    position:relative;
+}

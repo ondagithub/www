@@ -3,7 +3,7 @@
 /* keywords : 온다프로필, 온다자기소개
 /* author : 온다 */ 
 /* create Date : 2024-08-05
-/* update Date : 2024-08-27
+/* update Date : 2024-08-26
 /* **************************************** */
 @import url(styleCommon.css);
 
@@ -216,23 +216,6 @@ nav ul li a:hover{
     width:350px;
 }
 /* //2024-08-26 온다 : 수정, 추가 */
-
-/* 2024-08-27 온다 : 추가 */
-/* 이수과목 */
-.subjectWrap .subjectInnerCon{display:flex;align-items:center;width:100%;height:500px;}
-.subjectWrap.figmaType{background:#000;}
-.subjectWrap.figmaType .subjectTxt,
-.subjectWrap.htmlcssjsType .subjectTxt{color:#fff;}
-
-.subjectWrap.photoshopType .subjectInnerCon{width:100%;padding:0 0 0 40%;background:url('../img/logo_phtoshop_small.png') no-repeat left center;background-size: 33%;}
-.subjectWrap.figmaType .subjectInnerCon{padding:0 0 0 15px;background:url('../img/logo_figma_small.png') no-repeat right center;background-size: 33%;}
-.subjectWrap.htmlcssjsType{position:relative;z-index:0;background:url('../img/logo_html,css,js.png') no-repeat center center;background-size: 110%;}
-.subjectWrap.htmlcssjsType::after{content: "";position:absolute;z-index:1;top:0;right:0;bottom:0;left:0;background:rgba(0, 0, 0, 0.31);}
-.subjectWrap.htmlcssjsType .subjectInnerCon{position:relative;z-index:2;justify-content:center;text-align:center;}
-.subjectWrap .subjectTxt01{font-size:40px;font-weight:bold;margin-bottom:30px;}
-.subjectWrap .subjectTxt02{font-size:24px;}
-/* //2024-08-27 온다 : 추가 */
-
 
 /* poemTxt */
 .poemBox02 iframe{
